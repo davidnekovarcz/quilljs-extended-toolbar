@@ -46,6 +46,7 @@
       // Extended toolbar buttons
       ['placeholder'],
       ['if'],
+      ['table'],
       // Extended toolbar buttons
 
       ['bold', 'italic', 'underline', 'strike'],
@@ -75,7 +76,7 @@
           handlers: {
             // Essential for <if>
             if: function() {
-              value = quill.getFormat().if;
+              let value = quill.getFormat().if;
               if (value) {
                 value = prompt('Edit variable name (Cancel to remove)', value);
               } else {
