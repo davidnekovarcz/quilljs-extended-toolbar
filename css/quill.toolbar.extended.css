@@ -1,0 +1,16 @@
+.ql-x-placeholder:after, .ql-placeholder:after {
+  content: "<VAR>";
+}
+
+.ql-x-if:after, .ql-if:after {
+  content: "<IF>";
+}
+
+x-placeholder, placeholder {
+  background: yellow;
+}
+
+x-if, if {
+  background: lightgreen;
+  display: block;
+}

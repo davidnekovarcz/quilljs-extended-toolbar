@@ -1,0 +1,1 @@
+# example - QuillJS extended toolbar
